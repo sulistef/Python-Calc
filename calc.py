@@ -1,4 +1,4 @@
-from tkinter import *
+from Tkinter import *
 from re import *
 from math import *
 
@@ -103,7 +103,7 @@ def decodenpi(tab):
 
 
 
-# Récupération de la valeur cliquée dans l'interface
+# Rcuperation de la valeur cliquee dans l'interface
 def digit(value): 
     global calc_input 
     calc_input += value 
@@ -253,7 +253,7 @@ Button(window, text=" 6 ", height = _sizey, width = _sizex, pady = _padding, com
 Button(window, text=" 7 ", height = _sizey, width = _sizex, pady = _padding, command=lambda:digit("7")).grid(row=4, column=0)
 Button(window, text=" 8 ", height = _sizey, width = _sizex, pady = _padding, command=lambda:digit("8")).grid(row=4, column=1)
 Button(window, text=" 9 ", height = _sizey, width = _sizex, pady = _padding, command=lambda:digit("9")).grid(row=4, column=2)
-Button(window, text=" ÷ ", height = _sizey, width = _sizex, pady = _padding, command=lambda:digit("/")).grid(row=3, column=4)
+Button(window, text=" / ", height = _sizey, width = _sizex, pady = _padding, command=lambda:digit("/")).grid(row=3, column=4)
 Button(window, text=" x ", height = _sizey, width = _sizex, pady = _padding, command=lambda:digit("*")).grid(row=4, column=4)
 Button(window, text=" - ", height = _sizey, width = _sizex, pady = _padding, command=lambda:digit("-")).grid(row=5, column=4)
 Button(window, text=" + ", height = _sizey, width = _sizex, pady = _padding, command=lambda:digit("+")).grid(row=6, column=4)
